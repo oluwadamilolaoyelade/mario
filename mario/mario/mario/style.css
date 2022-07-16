@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 18px;
+    position: relative
+}
+p::first-line{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #71d300;
+}
+p::after{
+    content: 'Dami loves to bake';
+    color: crimson;
+    text-decoration: underline;
+    position: absolute;
+    top: 0;
+    right: 20px;
+
+}
+header{
+    position: fixed;
+    background-color: #F63232;
+    z-index: 1;
+    padding: 20px 0;
+    top: 0;
+    left: o;
+    width: 100%;
+    text-align: center;
+}
+header h1{
+    color: white;
+    padding: 6px 12px;
+    border: 5px solid white;
+    border-radius: 35px;
+    display: inline-block;
+}
+
+.welcome h2{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    background-color: #FEB614;
+    color: white;
+    padding: 30px 35px;
+    font-size: 40px;
+}
+.bannar{
+    position: relative;
+    }
+.bannar img{
+    max-width: 100%;
+}
+
+.welcome span{
+    font-size: 1.4em;
+}
+nav{
+    background-color: #F4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 58px;
+}
+nav li a {
+    color: #4b4b4b;
+    text-decoration: none;
+
+}
+nav li a:hover{
+color: #71d300;
+}
+li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+li a.join-club{
+    color: tomato;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 70px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    font-size: 48px;
+    color: #F63232;
+}
+article p{
+    color: #4b4b4b;
+    line-height: 2em;
+}
+.images{
+    display: flex;
+    margin-top:90px ;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.images div{
+    width: 440px;
+    height: 252px;
+}
+.images div img{
+    width: 100%;
+    height: 100%;
+}
+section.join{
+    background-color: #F4f4f4;
+    text-align: center;
+    color: #4b4b4b;
+    padding: 60px 20px;
+}
+section.join h2{
+    font-size: 36px;
+}
+form input{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 28px;
+    margin: 20px 0;
+    border: 4px solid white;
+}
+form input:focus{
+    border: 4px dashed #4B4B4B;
+    outline: none;
+  }
+  form input:valid{
+    border: 4px solid #71d300;
+  }
+footer{
+    background-color: #F63232;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+input::placeholder{
+    font-style: italic;
+    color: crimson;
+    background-color: black;
+    opacity: .5;
+}
